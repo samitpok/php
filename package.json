@@ -4,15 +4,17 @@
   "description": "personal hobby project, Historical events",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Samit Pokharel",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18",
     "path": "^0.12.7"
   }
 }
